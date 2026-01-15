@@ -8,5 +8,11 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.17",
+    "@types/react": "^19.2.8",
+    "effect": "^3.19.14",
+    "react": "^19.2.3"
   }
 }

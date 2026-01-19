@@ -2,7 +2,7 @@
 
 Type-safe integration between [Effect](https://effect.website/) and [Tanstack React Query](https://tanstack.com/query/latest).
 
-Use Effect's `Effect<A, E, R>` values directly as query and mutation functions while leveraging React Query's caching, synchronization, and state management.
+Let your query and mutation functions return effects while letting Tanstack Query handle caching, synchronization, and state management.
 
 ## API
 

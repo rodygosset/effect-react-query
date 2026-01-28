@@ -8,7 +8,6 @@
         "@base-ui/react": "^1.1.0",
         "@effect/platform": "^0.94.2",
         "@fontsource-variable/inter": "^5.2.8",
-        "@rody.gosset/effect-react-query": "^0.1.0",
         "@tailwindcss/vite": "^4.0.6",
         "@tanstack/react-devtools": "^0.7.0",
         "@tanstack/react-query": "^5.90.20",
@@ -20,6 +19,7 @@
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "effect": "^3.19.15",
+        "effect-tanstack-query": "^0.1.0",
         "lucide-react": "^0.563.0",
         "nitro": "latest",
         "react": "^19.2.0",
@@ -388,8 +388,6 @@
     "@oxc-transform/binding-win32-ia32-msvc": ["@oxc-transform/binding-win32-ia32-msvc@0.110.0", "", { "os": "win32", "cpu": "ia32" }, "sha512-5y0fzuNON7/F2hh2P94vANFaRPJ/3DI1hVl5rseCT8VUVqOGIjWaza0YS/D1g6t1WwycW2LWDMi2raOKoWU5GQ=="],
 
     "@oxc-transform/binding-win32-x64-msvc": ["@oxc-transform/binding-win32-x64-msvc@0.110.0", "", { "os": "win32", "cpu": "x64" }, "sha512-QROrowwlrApI1fEScMknGWKM6GTM/Z2xwMnDqvSaEmzNazBsDUlE08Jasw610hFEsYAVU2K5sp/YaCa9ORdP4A=="],
-
-    "@rody.gosset/effect-react-query": ["@rody.gosset/effect-react-query@0.1.0", "", { "peerDependencies": { "@effect/platform": "^0.94.2", "@tanstack/react-query": "^5.90.17", "@types/react": "^19.2.8", "effect": "^3.19.14", "react": "^19.2.3", "typescript": "^5" } }, "sha512-ZPsGRRIl0aaZGsa2w30ZJ9LjwR//Vevg05mj3/bnargrhDO1LBtp0HVhGvGzohA4pGo8zkP819TYZWQQTPqpOA=="],
 
     "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-beta.53", "", {}, "sha512-vENRlFU4YbrwVqNDZ7fLvy+JR1CRkyr01jhSiDpE1u6py3OMzQfztQU2jxykW3ALNxO4kSlqIDeYyD0Y9RcQeQ=="],
 
@@ -848,6 +846,8 @@
     "ee-first": ["ee-first@1.1.1", "", {}, "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="],
 
     "effect": ["effect@3.19.15", "", { "dependencies": { "@standard-schema/spec": "^1.0.0", "fast-check": "^3.23.1" } }, "sha512-vzMmgfZKLcojmUjBdlQx+uaKryO7yULlRxjpDnHdnvcp1NPHxJyoM6IOXBLlzz2I/uPtZpGKavt5hBv7IvGZkA=="],
+
+    "effect-tanstack-query": ["effect-tanstack-query@0.1.0", "", { "peerDependencies": { "@effect/platform": "^0.94.2", "@tanstack/react-query": "^5.90.17", "@types/react": "^19.2.8", "effect": "^3.19.14", "react": "^19.2.3", "typescript": "^5" } }, "sha512-2/YD51SUwEtEkrXD0PQ9WpWv7yT3Hf1fnxt88m7zlO0r9ZRSQ5127yZan4kg6TystlUds6rsSyUmPSy2Y+T7PA=="],
 
     "electron-to-chromium": ["electron-to-chromium@1.5.279", "", {}, "sha512-0bblUU5UNdOt5G7XqGiJtpZMONma6WAfq9vsFmtn9x1+joAObr6x1chfqyxFSDCAFwFhCQDrqeAr6MYdpwJ9Hg=="],
 

@@ -5,13 +5,13 @@ Type-safe integration between [Effect](https://effect.website/) and [TanStack Re
 ## Installation
 
 ```bash
-npm install @rody.gosset/effect-react-query
+npm install effect-tanstack-query
 ```
 
 ## Quick Start
 
 ```ts
-import { make } from "@rody.gosset/effect-react-query"
+import { make } from "effect-tanstack-query"
 import { ApiClient } from "./api/client"
 
 // Create runtime and hooks from a layer
@@ -23,7 +23,7 @@ function Root() {
 }
 
 // Create typed query options
-import { makeOptions } from "@rody.gosset/effect-react-query"
+import { makeOptions } from "effect-tanstack-query"
 const options = makeOptions<ApiClient>()
 ```
 
@@ -90,7 +90,7 @@ This is an example with [Tanstack Start](https://tanstack.com/start/latest)
 
 ```ts
 // 1. Setup (lib/effect-react-query/index.ts)
-import { make } from "@rody.gosset/effect-react-query"
+import { make } from "effect-tanstack-query"
 import { ApiClient } from "../api/client"
 
 export const eq = make(ApiClient.Default)
@@ -101,7 +101,7 @@ function Root() {
 }
 
 // 3. Create query options (routes/index.tsx)
-import { makeOptions } from "@rody.gosset/effect-react-query"
+import { makeOptions } from "effect-tanstack-query"
 import { Effect, Schema } from "effect"
 
 const options = makeOptions<ApiClient>()

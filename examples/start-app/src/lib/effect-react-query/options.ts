@@ -1,4 +1,4 @@
-import { makeOptions } from "@rody.gosset/effect-react-query"
+import { makeOptions } from "effect-tanstack-query"
 import { ApiClient } from "../api/client"
 
 export const options = makeOptions<ApiClient>()

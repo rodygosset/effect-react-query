@@ -3,7 +3,7 @@
     "configVersion": 1,
     "workspaces": {
         "": {
-            "name": "@rody.gosset/effect-react-query",
+            "name": "effect-tanstack-query",
             "devDependencies": {
                 "@types/bun": "latest",
                 "tsup": "^8.5.1",

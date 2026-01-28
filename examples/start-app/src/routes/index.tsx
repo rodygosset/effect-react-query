@@ -174,11 +174,9 @@ function App() {
 
 	const [searchQuery, setSearchQuery] = useState("")
 
-	const filteredTodos = todos
-		? todos.filter((todo) => todo.title.toLowerCase().includes(searchQuery.toLowerCase()))
-		: []
+	const filteredTodos = todos.filter((todo) => todo.title.toLowerCase().includes(searchQuery.toLowerCase()))
 
-	const completedCount = todos ? todos.filter((todo) => todo.completed).length : 0
+	const completedCount = todos.filter((todo) => todo.completed).length
 
 	const queryClient = useQueryClient()
 
@@ -201,7 +199,7 @@ function App() {
 			<div className="mx-auto max-w-2xl px-4 py-12 md:py-20">
 				<Header
 					completedCount={completedCount}
-					totalCount={todos ? todos.length : 0}
+					totalCount={todos.length}
 				/>
 				<SearchBar
 					value={searchQuery}

@@ -1,7 +1,7 @@
-import type { Prettify } from "./utils"
 import type { QueryKey, UseMutationOptions, UseQueryOptions } from "@tanstack/react-query"
 import { mutationOptions as _mutationOptions, queryOptions as _queryOptions } from "@tanstack/react-query"
-import { Cause, Effect, Schema, Exit, ManagedRuntime } from "effect"
+import { Cause, Effect, Exit, ManagedRuntime, Schema } from "effect"
+import type { Prettify } from "./utils"
 
 export interface QueryOptions<
 	TData = unknown,
